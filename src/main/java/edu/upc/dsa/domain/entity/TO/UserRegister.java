@@ -1,6 +1,6 @@
 package edu.upc.dsa.domain.entity.TO;
 
-import edu.upc.dsa.minim.Domain.Entity.VO.Credentials;
+import edu.upc.dsa.domain.entity.VO.Credentials;
 
 public class UserRegister {
     private String userName;

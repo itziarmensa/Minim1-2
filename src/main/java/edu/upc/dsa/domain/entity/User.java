@@ -14,7 +14,7 @@ public class User {
     Credentials credentials;
     String userId;
     List<Objeto> objetosComprados;
-    int dsaCoins;
+    double dsaCoins;
 
     public User(){
         this.userId = RandomId.getId();
@@ -78,7 +78,7 @@ public class User {
         this.objetosComprados = objetosComprados;
     }
 
-    public int getDsaCoins() {
+    public double getDsaCoins() {
         return dsaCoins;
     }
 

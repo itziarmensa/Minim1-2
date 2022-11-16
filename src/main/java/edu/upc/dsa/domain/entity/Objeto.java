@@ -5,14 +5,14 @@ import edu.upc.dsa.domain.entity.VO.RandomId;
 public class Objeto {
     String objetoNombre;
     String objetoDescripcion;
-    int price;
+    double price;
     String objectId;
 
     public Objeto(){
         this.objectId = RandomId.getId();
     }
 
-    public Objeto(String objetoNombre, String objetoDescripcion, int price) {
+    public Objeto(String objetoNombre, String objetoDescripcion, double price) {
         this.objetoNombre = objetoNombre;
         this.objetoDescripcion = objetoDescripcion;
         this.price = price;
@@ -34,7 +34,7 @@ public class Objeto {
         this.objetoDescripcion = objetoDescripcion;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 

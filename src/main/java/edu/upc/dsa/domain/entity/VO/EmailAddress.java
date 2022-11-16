@@ -1,8 +1,7 @@
 package edu.upc.dsa.domain.entity.VO;
 
-import edu.upc.dsa.minim.Domain.Entity.Exceptions.EmailAddressNotValidException;
+import edu.upc.dsa.domain.entity.exceptions.EmailAddressNotValidException;
 import org.apache.commons.validator.routines.EmailValidator;
-
 import java.util.Objects;
 
 public class EmailAddress {

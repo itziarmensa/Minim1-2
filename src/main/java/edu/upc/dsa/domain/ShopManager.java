@@ -13,7 +13,7 @@ public interface ShopManager {
     public Objeto objectInfo(String objectId);
     public void registroUsuario(String nombre, String apellidos, String fecha, Credentials credenciales) throws UserAlreadyExistsException;
     public List<User> orderUsersByAlph();
-    public void loginUser(Credentials credenciales) throws UserCredentialsNotValidException;
+    public User loginUser(Credentials credenciales) throws UserCredentialsNotValidException;
     public void addObjeto(String nombre, String descripcion, double precio);
     public List<Objeto> orderObjectsByPrice();
     public void comprarObjeto(String userId, String objectId) throws UserDoesNotExistException, ObjectDoesNotExistException, NotEnoughMoneyException;
